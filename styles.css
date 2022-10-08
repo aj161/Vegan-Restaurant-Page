@@ -201,6 +201,37 @@ menu-item section h3 span {
 
 }
 /*menu style end*/
+/*testimony style start*/
+
+.testimony-hero {
+  position:relative;
+}
+
+.testimony-text{
+  position: absolute;
+  display: flex;
+  flex-direction:column; 
+  justify-content: space-around;
+  align-items: center;
+  transform: translate(-50%, -50%);
+  /*adding top/left of 50% moves the top/left margin edge of the element to the middle of the parent, and translate() function with the negative value of -50% moves the element by the hald of its size. Hence the element will be positioned in the middle.*/
+  top:50%;
+  left:50%;
+  color:white;
+  font-size:1.4rem;
+  width: 80%;
+  height:100%;
+  font-weight: lighter;
+}
+
+.testimony i {
+  font-size:6rem;
+}
+
+
+/*testimony style end*/
+
+
 
 @media screen and (min-width:725px) {
   body {
