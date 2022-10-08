@@ -230,6 +230,49 @@ menu-item section h3 span {
 
 
 /*testimony style end*/
+/*experts style start*/
+
+.expert {
+  position:relative;
+  margin-bottom: 1rem;
+}
+
+.expert-img {
+  height:60vh;
+}
+
+.expert-info {
+  background-color: white;
+  position:absolute;
+  width:80%;
+  bottom:0;
+  left:0;
+  right:0;
+  margin: 0 auto 1.5rem auto;
+  padding:0.5rem;
+  text-align:center;
+}
+
+.expert-info p {
+  color:#333333;
+  font-weight:lighter;
+  margin:1rem 0;
+}
+
+.expert-social {
+  display: flex;
+  justify-content: space-evenly;
+  width:50%;
+  margin:0 auto;
+  color: #0a66c2;
+}
+
+.expert-social :last-child {
+  color: #55acee;
+}
+
+/*experts style end*/
+
 
 
 
@@ -325,6 +368,19 @@ menu-item section h3 span {
     .menu-item::after {
     width:75%;
     margin:0 auto;
+    }
+
+    .experts {
+      padding:2rem;
+    }
+
+    .experts-container {
+      display:flex;
+      justify-content: space-around;
+    }
+
+    .expert-image {
+      height: 350px;
     }
 
 
