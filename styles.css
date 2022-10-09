@@ -389,6 +389,10 @@ footer{
   margin-bottom:1rem;
 }
 
+.telefono {
+  color:white;
+  text-decoration:none;
+}
 .copyright{
   text-align: center;
   color: rgba(255, 255, 255, 0.8)
